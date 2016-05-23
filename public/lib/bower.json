@@ -1,0 +1,24 @@
+{
+  "name": "lib",
+  "homepage": "https://github.com/DasonCheng/enterprise-node",
+  "authors": [
+    "Origin <dasoncheng@foxmail.com>"
+  ],
+  "description": "lib",
+  "main": "",
+  "keywords": [
+    "includes"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],"dependencies": {
+    "animate.css": "^3.5.1",
+    "highcharts": "^4.2.5",
+    "malihu-custom-scrollbar-plugin": "^3.1.3"
+  }
+}

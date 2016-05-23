@@ -1,0 +1,30 @@
+@import "mxin/variables";
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid $table-border_color;
+  font-family: sans-serif;
+  tr {
+    font-size: 12px;
+    white-space: nowrap;
+    th {
+      border: 1px solid $table-border_color;
+      line-height: 210%;
+      text-align: center;
+      color: #5546a1;
+    }
+    td {
+      border: 1px solid $table-border_color;
+      line-height: 200%;
+      text-align: center;
+      color: #333;
+      a {
+        color: #333;
+        &:hover {
+          color: red;
+        }
+      }
+    }
+  }
+}
