@@ -5,14 +5,14 @@ html(lang="zh-cn")
         title 旗下产品
         meta(name="description" content="巨盛财富旗下产品")
         meta(name="keywords" content="新三板，基金，投资，理财，财富，巨盛基金，巨盛财富")
-        link(rel="stylesheet" href="public/build/common.css")
-        link(rel="stylesheet" href="public/build/mixture.css")
+        link(rel="stylesheet" href="build/common.css")
+        link(rel="stylesheet" href="build/mixture.css")
     body
         header
             .areaheart
                 h1
                     a(href="index.html")
-                        img(src="public/imgs/logo.png",alt="巨盛财富")
+                        img(src="imgs/logo.png",alt="巨盛财富")
                 ul
                     li
                         a(href="index.html") 首页
@@ -52,7 +52,7 @@ html(lang="zh-cn")
                     li
                         a(href="javascript:void(0);") ENGLISH
         section
-            .min-banner(style="background-image: url('public/imgs/min-show-01.png')")
+            .min-banner(style="background-image: url('imgs/min-show-01.png')")
                 .areaheart
                     h2 专注与可信赖的巨盛财富
                     p JUSHENG WEALTH FOCUSED AND TRUSTED
@@ -439,13 +439,13 @@ html(lang="zh-cn")
                                 li.trend
                                     .charts#charts
                                 li.process
-                                    img(src="public/imgs/033.gif",alt="process")
+                                    img(src="imgs/033.gif",alt="process")
         include includes/footer
-        script(src="public/lib/bower_components/jquery/dist/jquery.min.js")
-        script(src="public/lib/bower_components/echarts/dist/echarts.min.js")
-        script(src="public/lib/bower_components/highcharts/highcharts.js")
-        script(src="public/build/common.js")
-        script(src="public/build/mixture.js")
+        script(src="lib/bower_components/jquery/dist/jquery.min.js")
+        script(src="lib/bower_components/echarts/dist/echarts.min.js")
+        script(src="lib/bower_components/highcharts/highcharts.js")
+        script(src="build/common.js")
+        script(src="build/mixture.js")
         script.
             $(function () {
                 $.getJSON('https://www.highcharts.com/samples/data/jsonp.php?filename=usdeur.json&callback=?', function (data) {
