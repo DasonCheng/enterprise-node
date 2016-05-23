@@ -3,19 +3,43 @@
  */
 var express = require('express');
 var multer = require('multer');
+var mongoose = require('mongoose');
 var router = express.Router();
+mongoose.connect('mongodb://banmagou:yhetgamebanmagou@localhost:27017/banmagou');
 
+var goodsSchema = mongoose.Schema({
+    id: Number,
+    image: String,
+    name: String,
+    price: Number,
+    brokerage: Number,
+    salesCount: Number
+}, {collection: 'goods'});
+var items = mongoose.model('items', goodsSchema);
+/*
+items.find().limit(10).exec(function(err, goods) {
+    if (err) return console.error(err);
+
+});*/
 
 router.use(function timeLog(req, res, next) {
+    items.find().limit(10).exec(function (err, goods) {
+        if (err) return console.error(err);
+        console.log(goods);
+    });
     console.log('Time: ', Date.now());
     next();
 });
+router.get('/date', function (req, res) {
+    res.send("goods");
+    // items.find().limit(10).exec(function (err, goods) {
+    //     if (err) return console.error(err);
+    // });
+});
+
 
 router.get('/', function (req, res) {
     res.render('index', {});
-});
-router.post('/', function (req, res) {
-    res.send();
 });
 
 router.get('/upload', function (req, res) {

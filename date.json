@@ -1,0 +1,71 @@
+[{
+    "id": 1349,
+    "image": "http://7xiav1.com2.z0.glb.qiniucdn.com/4dc1451094771f6e34e66cb08bf11fa2.jpg",
+    "name": "商品一号",
+    "price": 499,
+    "brokerage": 50,
+    "salesCount": 10
+}, {
+    "id": 2,
+    "image": "http://7xiav1.com2.z0.glb.qiniucdn.com/4dc1451094771f6e34e66cb08bf11fa2.jpg",
+    "name": "商品二号",
+    "price": 400,
+    "brokerage": 50,
+    "salesCount": 10
+}, {
+    "id": 1349,
+    "image": "http://7xiav1.com2.z0.glb.qiniucdn.com/4dc1451094771f6e34e66cb08bf11fa2.jpg",
+    "name": "商品三号",
+    "price": 300,
+    "brokerage": 50,
+    "salesCount": 10
+}, {
+    "id": 1349,
+    "image": "http://7xiav1.com2.z0.glb.qiniucdn.com/4dc1451094771f6e34e66cb08bf11fa2.jpg",
+    "name": "商品四号",
+    "price": 200,
+    "brokerage": 50,
+    "salesCount": 10
+}, {
+    "id": 2,
+    "image": "http://7xiav1.com2.z0.glb.qiniucdn.com/4dc1451094771f6e34e66cb08bf11fa2.jpg",
+    "name": "商品五号",
+    "price": 400,
+    "brokerage": 50,
+    "salesCount": 10
+}, {
+    "id": 1349,
+    "image": "http://7xiav1.com2.z0.glb.qiniucdn.com/4dc1451094771f6e34e66cb08bf11fa2.jpg",
+    "name": "商品六号",
+    "price": 300,
+    "brokerage": 50,
+    "salesCount": 10
+}, {
+    "id": 1349,
+    "image": "http://7xiav1.com2.z0.glb.qiniucdn.com/4dc1451094771f6e34e66cb08bf11fa2.jpg",
+    "name": "商品七号",
+    "price": 300,
+    "brokerage": 50,
+    "salesCount": 10
+}, {
+    "id": 1349,
+    "image": "http://7xiav1.com2.z0.glb.qiniucdn.com/4dc1451094771f6e34e66cb08bf11fa2.jpg",
+    "name": "商品八号",
+    "price": 300,
+    "brokerage": 50,
+    "salesCount": 10
+}, {
+    "id": 1349,
+    "image": "http://7xiav1.com2.z0.glb.qiniucdn.com/4dc1451094771f6e34e66cb08bf11fa2.jpg",
+    "name": "商品九号",
+    "price": 300,
+    "brokerage": 50,
+    "salesCount": 10
+}, {
+    "id": 1349,
+    "image": "http://7xiav1.com2.z0.glb.qiniucdn.com/4dc1451094771f6e34e66cb08bf11fa2.jpg",
+    "name": "商品十号",
+    "price": 300,
+    "brokerage": 50,
+    "salesCount": 10
+}]
