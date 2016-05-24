@@ -5,7 +5,7 @@ var express = require('express');
 var multer = require('multer');
 var mongoose = require('mongoose');
 var router = express.Router();
-mongoose.connect('mongodb://banmagou:yhetgamebanmagou@localhost:27017/banmagou');
+mongoose.connect('mongodb://jusheng:123aaAA@localhost:27017/jusheng');
 
 var goodsSchema = mongoose.Schema({
     id: Number,
@@ -14,32 +14,20 @@ var goodsSchema = mongoose.Schema({
     price: Number,
     brokerage: Number,
     salesCount: Number
-}, {collection: 'goods'});
+}, {collection: 'index'});
 var items = mongoose.model('items', goodsSchema);
-/*
-items.find().limit(10).exec(function(err, goods) {
-    if (err) return console.error(err);
-
-});*/
 
 router.use(function timeLog(req, res, next) {
-    items.find().limit(10).exec(function (err, goods) {
-        if (err) return console.error(err);
-        console.log(goods);
-    });
     console.log('Time: ', Date.now());
     next();
-});
-router.get('/date', function (req, res) {
-    res.send("goods");
-    // items.find().limit(10).exec(function (err, goods) {
-    //     if (err) return console.error(err);
-    // });
 });
 
 
 router.get('/', function (req, res) {
-    res.render('index', {});
+    items.find().exec(function (err, data) {
+        if (err) return console.error(err);
+        res.render('index', {});
+    });
 });
 
 router.get('/upload', function (req, res) {

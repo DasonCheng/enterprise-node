@@ -1,0 +1,69 @@
+{
+  "banner": {
+    "img": "imgs/banner.png",
+    "h3": "我们期待与您的合作共赢共享！",
+    "p": "全新金融模式，让您的投资更具价值！",
+    "a": ["联系我们","contact"]
+  },
+  "about_us": {
+    "h3":"关于巨盛财富",
+    "p_cn":"深圳巨盛财富投资管理有限公司成立于2015年12月24日 ，注册资本2000万元经营范围为<br>基金管理、投资管理、企业管理咨询与营销策划服务等。公司是一家在中国证券投资基金业协会备案的专业化私募基金管理机构。",
+    "p_en":"Shenzhen JuSheng wealth investment management co., LTD., founded in 2015 on December 24, the registered capital of 20 million yuan Scope of business for fund management, investment management, enterprise management consulting and marketing services. Company is a specialization of securities investment fund industry association in China for the record private equity fund management institutions."
+  },
+  "product":{
+    "strong":"旗下产品",
+    "sort":[{
+      "href":"javascript:;",
+      "img":"imgs/product-1.png",
+      "h4":"主动管理型产品",
+      "p":"通过信托产品，基金专户，契约集合等方式募集客户的资金投资于资本市场"
+    },{
+      "href":"javascript:;",
+      "img":"imgs/product-2.png",
+      "h4":"新三版基金",
+      "p":"新三板主要负责人由中国第一批保荐代表人和IPO律师组成，核心投资团队包含各行业资深的投资人才、研究人才、并购人才、风控人才和投后管理人才。"
+    },{
+      "href":"javascript:;",
+      "img":"imgs/product-3.png",
+      "h4":"套利策略产品",
+      "p":"该类产品的申购赎回通常每季度可进行，非常适合风险厌恶，经常有短期资金闲置的投资者。"
+    },{
+      "href":"javascript:;",
+      "img":"imgs/product-4.png",
+      "h4":"量化产品",
+      "p":"该产品可季度申购或赎回，流动性较好。适合厌恶风险、希望获取稳定收益的投资者。"
+    },{
+      "href":"javascript:;",
+      "img":"imgs/product-5.png",
+      "h4":"定增产品",
+      "p":"该产品客户认购的资金通常锁定1年到1年半，流动性较主动管理型产品偏弱，但具有更高的收益弹性。鼎锋可针对单个定增项目的具体情况，根据客户的特定需求定制交易架构和投资方案。"
+    },{
+      "href":"javascript:;",
+      "img":"imgs/product-6.png",
+      "h4":"海外业务",
+      "p":" 随着中国转型的路径愈发清晰，海外资本看好中国市场，加大了对中国股市的配置，鼎锋资产也积极展开了与海外机构客户的沟通合作，目前已列入英国某机构投资者的投顾名单。"
+    }]
+  },
+  "new":{
+    "strong":"新闻资讯",
+    "dl":[{
+      "strong":"22",
+      "em":"2016-5",
+      "h3":"邝远平受邀参加丙申年黄帝故里拜祖大典",
+      "p":"本网洛阳4月10日讯（通讯员 王清）昨天上午，时值农历三月初三，是中华民族人文始祖轩辕黄帝的诞辰。丙申年黄帝故里拜祖大典...",
+      "href":"javascript"
+    },{
+      "strong":"22",
+      "em":"2016-5",
+      "h3":"邝远平受邀参加丙申年黄帝故里拜祖大典",
+      "p":"本网洛阳4月10日讯（通讯员 王清）昨天上午，时值农历三月初三，是中华民族人文始祖轩辕黄帝的诞辰。丙申年黄帝故里拜祖大典...",
+      "href":"javascript"
+    },{
+      "strong":"22",
+      "em":"2016-5",
+      "h3":"邝远平受邀参加丙申年黄帝故里拜祖大典",
+      "p":"本网洛阳4月10日讯（通讯员 王清）昨天上午，时值农历三月初三，是中华民族人文始祖轩辕黄帝的诞辰。丙申年黄帝故里拜祖大典...",
+      "href":"javascript"
+    }]
+  }
+}
