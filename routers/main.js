@@ -42,7 +42,6 @@ router.use(function timeLog(req, res, next) {
 
 
 router.get('/', function (req, res) {
-    console.log();
     res.render('index', {companyData, bannerData});
 });
 
