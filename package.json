@@ -38,8 +38,8 @@
   },
   "dependencies": {
     "express": "^4.13.4",
-    "mongoose": "^4.4.19",
     "multer": "^1.1.0",
+    "mysql": "^2.10.2",
     "pug": "^2.0.0-alpha8"
   }
 }
