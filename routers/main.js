@@ -7,16 +7,34 @@ var mongoose = require('mongoose');
 var router = express.Router();
 mongoose.connect('mongodb://jusheng:123aaAA@localhost:27017/jusheng');
 
-var goodsSchema = mongoose.Schema({
-    id: Number,
-    image: String,
+var companySchema = mongoose.Schema({
     name: String,
-    price: Number,
-    brokerage: Number,
-    salesCount: Number
-}, {collection: 'index'});
-var items = mongoose.model('items', goodsSchema);
+    tel: String,
+    post: String,
+    www: String,
+    logo: String,
+    intro_cn: String,
+    intro_en: String,
+    intro_title: String
+}, {collection: 'company'});
+var company = mongoose.model('company', companySchema);
+var companyData = null
+company.find().exec(function (err, data) {
+    if (err) return console.error("err");
+    companyData = data;
+});
+var bannerSchema = mongoose.Schema({
+    title: String,
+    words: String,
+    link: Object
+}, {collection: 'banner'});
+var banner = mongoose.model('banner', bannerSchema);
 
+var bannerData = null;
+banner.find().exec(function (err, date) {
+    if (err) return console.error("err");
+    bannerData = date;
+});
 router.use(function timeLog(req, res, next) {
     console.log('Time: ', Date.now());
     next();
@@ -24,10 +42,8 @@ router.use(function timeLog(req, res, next) {
 
 
 router.get('/', function (req, res) {
-    items.find().exec(function (err, data) {
-        if (err) return console.error(err);
-        res.render('index', {});
-    });
+    console.log();
+    res.render('index', {companyData, bannerData});
 });
 
 router.get('/upload', function (req, res) {
