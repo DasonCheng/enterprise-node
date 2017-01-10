@@ -14,11 +14,13 @@ import NotFoundPage from './components/pages/not-found.page.vue'
 import HomePage from './components/pages/home.page.vue'
 import CanvasPage from './components/pages/canvas.page.vue'
 import WebGlPage from './components/pages/webgl.page.vue'
+import CanvasLine from './components/pages/canvas-line.page.vue'
 
 const router = new VueRouter({
   routes: [
     {path: '/home', component: HomePage},
     {path: '/home/canvas', component: CanvasPage},
+    {path: '/home/canvas/line', component: CanvasLine},
     {path: '/home/webgl', component: WebGlPage},
     {path: '', redirect: '/home'},
     {path: '*', component: NotFoundPage}
