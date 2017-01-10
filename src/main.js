@@ -7,17 +7,20 @@ Vue.use(VueRouter)
 import './assets/style/weui.css'
 import './assets/style/base.scss'
 import './assets/script/rem'
+import 'lodash'
 
 import App from './App'
 import NotFoundPage from './components/pages/not-found.page.vue'
 import HomePage from './components/pages/home.page.vue'
-import GameOnePage from './components/pages/game-one.page.vue'
+import CanvasPage from './components/pages/canvas.page.vue'
+import WebGlPage from './components/pages/webgl.page.vue'
 
 const router = new VueRouter({
   routes: [
-    {path: '/game', component: HomePage},
-    {path: '/game/one', component: GameOnePage},
-    {path: '', redirect: '/game'},
+    {path: '/home', component: HomePage},
+    {path: '/home/canvas', component: CanvasPage},
+    {path: '/home/webgl', component: WebGlPage},
+    {path: '', redirect: '/home'},
     {path: '*', component: NotFoundPage}
   ],
   mode: 'history',

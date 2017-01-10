@@ -30,7 +30,7 @@
       let canvas = this.$el;
       canvas.width = width;
       canvas.height = height;
-      gl = this.initWebGL(canvas);
+      let gl = this.initWebGL(canvas);
 
       // 只有在 WebGL 可用的时候才继续
 

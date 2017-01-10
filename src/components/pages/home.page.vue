@@ -11,8 +11,12 @@
       return {
         games: [
           {
-            name: 'game one',
-            link: '/game/one'
+            name: 'Canvas',
+            link: '/home/canvas'
+          },
+          {
+            name: 'WebGL',
+            link: '/home/webgl'
           }
         ]
       }
