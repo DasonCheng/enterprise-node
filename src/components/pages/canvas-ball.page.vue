@@ -23,7 +23,7 @@
           this.BALLS = _.concat(this.BALLS, {
             x: _.random(this.size.width, true),
             y: _.random(this.size.height, true),
-            radius: _.sample([1, 4, 6, 8]),
+            radius: _.sample([1, 2, 3, 4]),
             vx: _.random(2, true) * _.sample([-1, 1]),
             vy: _.random(2, true) * _.sample([-1, 1])
           })
@@ -33,6 +33,7 @@
         this.BALLS.map((ball) => {
           ctx.beginPath();
           ctx.arc(ball.x, ball.y, ball.radius, 0, 2 * Math.PI);
+          ctx.fillStyle = 'rgb(255, 105, 3)';
           ctx.fill();
           ctx.closePath();
         })
@@ -49,5 +50,6 @@
 <style lang="scss" scoped>
   canvas {
     display: block;
+    background-color: rgb(58, 58, 58);
   }
 </style>
