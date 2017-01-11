@@ -1,4 +1,4 @@
-# vue-game
+# vue-canvas
 
 > A Vue.js project
 
